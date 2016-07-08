@@ -23,6 +23,8 @@ Player is a person at a  __smash__ tournament
     - Leveled up through playing RPS against the computer (RPS AI high priority)
 - Assets
   - Money
+    - End of each month requires bills to be paid
+    - If money is negative you must do IRL job (cannot play Smash/level up)
   - Fame?
     - Crowd favor
     - Subs for money
@@ -58,6 +60,7 @@ Player is a person at a  __smash__ tournament
   - matchups
 - can level up game stats
   - neutral game
+    - Spacing
   - punish game
   - edgegaurding
   - survivability
