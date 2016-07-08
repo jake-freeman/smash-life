@@ -1,0 +1,32 @@
+{
+  "name": "smash-life",
+  "version": "0.0.0",
+  "description": "Zero to hero competetive Smash browser game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jake-freeman/smash-life.git"
+  },
+  "private": true,
+  "keywords": [
+    "smash",
+    "melee",
+    "browser",
+    "tournament",
+    "money",
+    "competition",
+    "GOAT"
+  ],
+  "contributors": [{
+    "name": "jake-freeman"
+    }, {
+    "name": "danielCatlett"
+  }],
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jake-freeman/smash-life/issues"
+  }
+}
