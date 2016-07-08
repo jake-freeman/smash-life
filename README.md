@@ -20,6 +20,7 @@ Player is a person at a  __smash__ tournament
   - Tech
   - Style of play
   - RPS skill (extremely small edge)
+    - Leveled up through playing RPS against the computer (RPS AI high priority)
 - Assets
   - Money
   - Fame?
@@ -47,6 +48,9 @@ Player is a person at a  __smash__ tournament
   - Top Contender
   - GOAT (top)
 
+### Gameplay
+- First opponent at first tournament is Venom. Mains Link. Is trash. Quits after that night, because he got rekt
+
 ## Characters
 - Have to learn specifics
   - Character specific tech
@@ -56,10 +60,13 @@ Player is a person at a  __smash__ tournament
   - neutral game
   - punish game
   - edgegaurding
+  - survivability
+    - Includes DI, Teching, and recoveries
 - leveling up stats can also be done indirectly by leveling up relevant skills to those core game stats
 
 ## Battling
 [TODO]: Make combat interactive
+- Disrespect option randomly appears occasionally. Sometimes costs you the punish, but doing it a lot helps build fame faster
 
 ### Basics
 - Games start with RPS and stage picking
