@@ -23,3 +23,7 @@ module.exports = class Character
     return this.config.stats;
   }
 }
+
+/*
+might do some stuff with its stats
+*/
