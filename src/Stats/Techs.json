@@ -1,0 +1,50 @@
+{
+  "directional_influence": {
+    "name": "Directional Influence",
+    "parents": null,
+    "children": ["teching"],
+    "tier": 1
+  },
+  "dash_dancing": {
+    "name": "Dash Dancing",
+    "parents": null,
+    "children": ["wavedashing", "crouch_cancelling"],
+    "tier": 1
+  },
+  "short_hopping": {
+    "name": "Short Hopping",
+    "parents": null,
+    "children": ["lag_cancelling", "fast_falling"],
+    "tier": 1
+  },
+  "teching": {
+    "name": "Teching",
+    "parents": ["directional_influence"],
+    "children": ["amsah_tech", "survival_di"],
+    "tier": 1
+  },
+  "wavedashing": {
+    "name": "Wave-Dashing",
+    "parents" : ["dash_dancing"],
+    "children": ["wavelanding", "moonwalking"],
+    "tier": 1
+  },
+  "crouch_cancelling": {
+    "name": "Crouch Cancelling",
+    "parents": ["dash_dancing"],
+    "children": ["turnaround_tilts", "moonwalking"],
+    "tier": 1
+  },
+  "lag_cancelling": {
+    "name": "L-cancelling",
+    "parents": ["short_hopping"],
+    "children": ["shffling", "wavelanding"],
+    "tier": 1
+  },
+  "fast_falling": {
+    "name": "Fast Falling",
+    "parents": ["short_hopping"],
+    "children": ["shffling", "amsah_tech"],
+    "tier": 1
+  }
+}
