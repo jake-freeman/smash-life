@@ -1,0 +1,96 @@
+{
+  "name": "Melee",
+  "characters": [
+    {
+      "name": "Fox",
+      "stats": {
+        "weight": 1.00,
+        "punishibility": 1.25,
+        "recovery": 1.20,
+        "csm": {
+          "tech_skill": 0.90,
+          "neutral_game": 1.15,
+          "luck": 0.75,
+          "punish_game": 1.20,
+          "edgegaurding": 1.15
+        }
+      }
+    },
+    {
+      "name": "Falco",
+      "stats": {
+        "weight": 1.00,
+        "punishibility": 1.25,
+        "recovery": 1.00,
+        "csm": {
+          "tech_skill": 0.95,
+          "neutral_game": 1.20,
+          "luck": 0.85,
+          "punish_game": 1.20,
+          "edgegaurding": 0.95
+        }
+      }
+    },
+    {
+      "name": "Marth",
+      "stats": {
+        "weight": 1.00,
+        "punishibility": 0.95,
+        "recovery": 1.15,
+        "csm": {
+          "tech_skill": 1.10,
+          "neutral_game": 1.25,
+          "luck": 0.65,
+          "punish_game": 1.05,
+          "edgegaurding": 1.25
+        }
+      }
+    },
+    {
+      "name": "Sheik",
+      "stats": {
+        "weight": 1.00,
+        "punishibility": 0.85,
+        "recovery": 1.00,
+        "csm": {
+          "tech_skill": 1.15,
+          "neutral_game": 1.10,
+          "luck": 0.80,
+          "punish_game": 1.25,
+          "edgegaurding": 1.25
+        }
+      }
+    },
+    {
+      "name": "Peach",
+      "stats": {
+        "weight": 0.85,
+        "punishibility": 0.80,
+        "recovery": 1.25,
+        "csm": {
+          "tech_skill": 1.00,
+          "neutral_game": 1.00,
+          "luck": 1.25,
+          "punish_game": 1.15,
+          "edgegaurding": 1.15
+        }
+      }
+    },
+    {
+      "name": "Puff",
+      "stats": {
+        "weight": 0.75,
+        "punishibility": 0.85,
+        "recovery": 1.25,
+        "csm": {
+          "tech_skill": 1.20,
+          "neutral_game": 1.10,
+          "luck": 0.75,
+          "punish_game": 1.20,
+          "edgegaurding": 1.20
+        }
+      }
+    }
+  ],
+  "stages": ["not-yet-implemented"]
+}
