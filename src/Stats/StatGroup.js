@@ -24,7 +24,8 @@ module.exports = class StatGroup
    *
    * @returns {value}  The value of the object
    */
-  stat(name) {
+  stat(name)
+  {
     return this.config.stats[name];
   }
 };

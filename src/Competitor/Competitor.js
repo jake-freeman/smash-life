@@ -1,20 +1,19 @@
 'use strict';
-/* Competitor class */
+/* Competitor abstract class */
 
-module.exports=class Competitor
+module.exports = class Competitor
 {
   /**
-  * constructor variables
-  * @param {Object} config: describes starting state of a player
-  * @param {String} name: real name
-  * @param {String} tag: gamertag
-  * @param {Array} mains: string array of mains
-  * @param {Object} Stats: object that has all stats in it
-  */
-
+   * constructor variables
+   * @param {Object} config        describes starting state of a player
+   * @param {String} config.name   real name
+   * @param {String} config.tag    gamertag
+   * @param {Array}  config.mains  string array of mains
+   * @param {Object} config.stats  object that has all stats in it
+   */
   constructor(config)
   {
-    this.config=config;
+    this.config = config;
   }
 
   get name()
