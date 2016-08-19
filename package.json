@@ -4,7 +4,7 @@
   "description": "Zero to hero competetive Smash browser game",
   "main": "src/index.js",
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint hello.js"
+    "test": "./node_modules/jshint/bin/jshint ."
   },
   "repository": {
     "type": "git",
