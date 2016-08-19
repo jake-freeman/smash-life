@@ -1,4 +1,4 @@
-"use strict"
+'use strict';
 /* SmashGame class */
 
 module.exports = class SmashGame
@@ -28,4 +28,4 @@ module.exports = class SmashGame
   {
     return this.config.stages;
   }
-}
+};

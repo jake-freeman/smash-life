@@ -1,4 +1,4 @@
-"use strict"
+'use strict';
 /* Character class */
 
 module.exports = class Character
@@ -22,4 +22,4 @@ module.exports = class Character
   {
     return this.config.stats;
   }
-}
+};

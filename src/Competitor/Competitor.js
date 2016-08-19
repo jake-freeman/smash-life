@@ -1,4 +1,5 @@
-"use strict"
+'use strict';
+/* Competitor class */
 
 module.exports=class Competitor
 {
@@ -35,5 +36,4 @@ module.exports=class Competitor
   {
     return this.config.stats;
   }
-
-}
+};

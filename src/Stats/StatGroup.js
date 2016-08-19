@@ -1,4 +1,4 @@
-"use strict"
+'use strict';
 /* StatGroup class */
 
 module.exports = class StatGroup
@@ -27,4 +27,4 @@ module.exports = class StatGroup
   stat(name) {
     return this.config.stats[name];
   }
-}
+};

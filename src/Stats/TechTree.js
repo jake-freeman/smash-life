@@ -1,4 +1,4 @@
-"use strict"
+'use strict';
 /* TechTree class */
 
 module.exports = class TechTree
@@ -10,6 +10,4 @@ module.exports = class TechTree
    constructor(config) {
 
    }
-
-
-}
+};

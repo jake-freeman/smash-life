@@ -4,7 +4,7 @@
   "description": "Zero to hero competetive Smash browser game",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/jshint/bin/jshint hello.js"
   },
   "repository": {
     "type": "git",
@@ -20,13 +20,19 @@
     "competition",
     "GOAT"
   ],
-  "contributors": [{
-    "name": "jake-freeman"
-    }, {
-    "name": "danielCatlett"
-  }],
+  "contributors": [
+    {
+      "name": "jake-freeman"
+    },
+    {
+      "name": "danielCatlett"
+    }
+  ],
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/jake-freeman/smash-life/issues"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.3"
   }
 }
