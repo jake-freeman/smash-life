@@ -34,6 +34,7 @@ The structure and organization of the smash-life game
 - Local
 - Regional
 - National
+- Major
 - Minigame
 - Minigame::RPS
 - Minigame::IRL_job (maybe not now)
