@@ -1,7 +1,9 @@
 'use strict';
 /* StatGroup class */
 
-module.exports = class StatGroup
+const Base = require('../core/Base.js');
+
+module.exports = class StatGroup extends Base
 {
   /**
    * @param {Object} config        describes starting state of the stat group

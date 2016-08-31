@@ -1,7 +1,9 @@
 'use strict';
 /* TechTree class */
 
-module.exports = class TechTree
+const Base = require('../core/Base.js');
+
+module.exports = class TechTree extends Base
 {
   /**
    * @param {Object} config       describes the starting state of the tech tree

@@ -1,7 +1,9 @@
 'use strict';
 /* Competitor abstract class */
 
-module.exports = class Competitor
+const Base = require('../core/Base.js');
+
+module.exports = class Competitor extends Base
 {
   /**
    * constructor variables

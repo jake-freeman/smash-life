@@ -1,7 +1,9 @@
 'use strict';
 /* SmashGame class */
 
-module.exports = class SmashGame
+const Base = require('../core/Base.js');
+
+module.exports = class SmashGame extends Base
 {
   /**
    * @param {Object} config             describes starting state of smash game
