@@ -15,7 +15,7 @@ module.exports = class Competitor extends Base
    */
   constructor(config)
   {
-    this.config = config;
+    super(config);
   }
 
   get name()

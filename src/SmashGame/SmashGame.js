@@ -13,7 +13,7 @@ module.exports = class SmashGame extends Base
    */
   constructor(config)
   {
-    this.config = config;
+    super(config);
   }
 
   get name()

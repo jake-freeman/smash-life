@@ -13,7 +13,23 @@ const BadTypeException = require('./Exception/BadTypeException.js');
 module.exports = class Base
 {
   /**
-   * Reads config from specified level
+   * Default constructor will attempt to read config from file if
+   * passed a string, will simply assign config object otherwise
+   *
+   * @param {E} config  Config object or path to config object
+   */
+   constructor(config)
+   {
+     if (typeof config === "string") {
+       this._readConfig(config);
+     }
+     else {
+       this.config = config;
+     }
+   }
+
+  /**
+   * Reads config from specified file
    *
    * @param {String} filepath  Path to the json file
    */
@@ -29,8 +45,14 @@ module.exports = class Base
     catch (err) {
       console.error(err);
     }
+    this.config = obj;
   }
 
+  /**
+   * Writes config to specified file
+   *
+   * @param {String} filepath  Path to write the json file to
+   */
   _writeConfig(filepath)
   {
     if (typeof filepath !== "string") {

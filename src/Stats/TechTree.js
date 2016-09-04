@@ -11,6 +11,6 @@ module.exports = class TechTree extends Base
    */
    constructor(config)
    {
-
+     super(config);
    }
 };

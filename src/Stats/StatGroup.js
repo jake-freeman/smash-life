@@ -13,7 +13,7 @@ module.exports = class StatGroup extends Base
    */
   constructor(config)
   {
-    this.config = config;
+    super(config);
   }
 
   get name()

@@ -12,7 +12,7 @@ module.exports = class Character extends Base
    */
   constructor(config)
   {
-    this.config = config;
+    super(config);
   }
 
   get name()
