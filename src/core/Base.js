@@ -41,11 +41,11 @@ module.exports = class Base
 
     try {
       var obj = JSON.parse(fs.readFileSync(filepath, 'utf8'));
+      this.config = obj;
     }
     catch (err) {
       console.error(err);
     }
-    this.config = obj;
   }
 
   /**
