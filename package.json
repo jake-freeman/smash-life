@@ -34,5 +34,8 @@
   },
   "devDependencies": {
     "jshint": "^2.9.3"
+  },
+  "dependencies": {
+    "lodash": "^4.15.0"
   }
 }
