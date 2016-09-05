@@ -1,7 +1,9 @@
 'use strict';
 /* Character class */
 
-module.exports = class Character
+const Base = require('../core/Base.js');
+
+module.exports = class Character extends Base
 {
   /**
    * @param {Object} config        describes starting state of character
@@ -10,7 +12,7 @@ module.exports = class Character
    */
   constructor(config)
   {
-    this.config = config;
+    super(config);
   }
 
   get name()

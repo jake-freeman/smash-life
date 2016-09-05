@@ -1,7 +1,9 @@
 'use strict';
 /* StatGroup class */
 
-module.exports = class StatGroup
+const Base = require('../core/Base.js');
+
+module.exports = class StatGroup extends Base
 {
   /**
    * @param {Object} config        describes starting state of the stat group
@@ -11,7 +13,7 @@ module.exports = class StatGroup
    */
   constructor(config)
   {
-    this.config = config;
+    super(config);
   }
 
   get name()
@@ -24,7 +26,8 @@ module.exports = class StatGroup
    *
    * @returns {value}  The value of the object
    */
-  stat(name) {
+  stat(name)
+  {
     return this.config.stats[name];
   }
 };

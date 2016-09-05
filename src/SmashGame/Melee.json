@@ -92,5 +92,5 @@
       }
     }
   ],
-  "stages": ["not-yet-implemented"]
+  "stages": [{"error": "not-yet-implemented"}]
 }
