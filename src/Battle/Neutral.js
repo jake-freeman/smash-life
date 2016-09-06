@@ -162,7 +162,7 @@ module.exports = class Neutral extends BattleMode
   {
     // Assigns "control" winning player in exchange.
     // Control is used for both stage control and for
-    // who is executing the punish / edgegaurd
+    // who is executing the punish / edgeguard
     battleState.humCompetitor.control = humanWon;
     battleState.npcCompetitor.control = !humanWon;
   }

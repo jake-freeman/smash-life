@@ -13,7 +13,7 @@ const modes = {
   // [TODO]: Add other modes
   neutral: Neutral/*,
   punish: Punish,
-  edgegaurd: Edgegaurd*/
+  edgeguard: Edgeguard*/
 };
 
 module.exports = class Battle extends Base
