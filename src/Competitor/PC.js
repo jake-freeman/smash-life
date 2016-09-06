@@ -1,12 +1,12 @@
-'use strict'
+'use strict';
 /*Player Character class */
 
-const Base = require('../core/Base.js');
+const Competitor = require('./Competitor.js');
 
 module.exports = class PC extends Competitor
 {
   /**
-   * @param {var} config.money       amount of money the player has
+   * @param {Number} config.money       amount of money the player has
    * @param {Array} config.records   records of all matches against opponents
    */
    constructor(config)

@@ -1,12 +1,13 @@
 'use strict';
+/* Non-Player Character class*/
 
-const Base = require('../core/Base.js');
+const Competitor = require('./Competitor.js');
 
 module.exports = class NPC extends Competitor
 {
   /**
    * constructor variables
-   * @param {var} config.difLevel   number representing how hard opponent is
+   * @param {Number} config.difLevel   number representing how hard opponent is
    */
    constructor(config)
    {
