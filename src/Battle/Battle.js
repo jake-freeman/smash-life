@@ -1,10 +1,20 @@
 'use strict';
 /* Battle class */
 
+// Libs
 const _ = require('lodash');
 
 const Base      = require('../core/Base.js'),
-      Character = require('../Character/Character.js');
+      Character = require('../Character/Character.js'),
+      Neutral   = require('./Neutral.js');
+
+// Battle Modes
+const modes = {
+  // [TODO]: Add other modes
+  neutral: Neutral/*,
+  punish: Punish,
+  edgegaurd: Edgegaurd*/
+};
 
 module.exports = class Battle extends Base
 {
@@ -31,7 +41,7 @@ module.exports = class Battle extends Base
     const initCompetitorState = {
         damage: 0,
         stocks: this.rules.stocks,
-        status: "neutral"
+        control: false
     };
 
     const initialBattleState = {
@@ -39,6 +49,7 @@ module.exports = class Battle extends Base
       npcCompetitor: _.defaults({}, initialBattleState),
       remTime: this.rules.timeLimit,
       status: "true-neutral",
+      mode: "neutral",
       active: false
     };
 
@@ -46,12 +57,20 @@ module.exports = class Battle extends Base
   }
 
   /**
-   * Set the battle state to active, begin timer
+   * Set the battle state to active, begin timer, enter
+   * battle loop
    */
   setActive()
   {
     this.state.active = true;
     /* [TODO]: Start match timer thread here */
+    this.battleLoop();
+  }
+
+  battleLoop()
+  {
+    // enter current battle mode (as decided by last mode)
+    // check mode and control, set status accoordingly
   }
 
   /**
