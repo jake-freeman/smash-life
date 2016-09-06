@@ -13,7 +13,7 @@ The structure and organization of the smash-life game
   - fundamental stats
   - character stats
   - local area
-  - matchup (on a character by character basis)
+  - matchup (on a character by character basis) (still necessary? -dc)
   - all matches (wins and loses)
 - Player::HumanPlayer
 - Player::AIPlayer
