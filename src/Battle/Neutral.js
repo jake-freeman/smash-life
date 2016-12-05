@@ -21,6 +21,11 @@ module.exports = class Neutral extends BattleMode
     return 'Neutral';
   }
 
+  get neutralOptions()
+  {
+    return neutralOptions;
+  }
+
   static enterMode(battleState, battleConfig, cb)
   {
     // prompt user to choose option

@@ -1,5 +1,17 @@
-# Node stuff
+# Node / Angular stuff
+.idea
 node_modules
+jspm_packages
+npm-debug.*
+link-checker-results.txt
+app/**/*.js
+*.js.map
+
+# E2E testing stuff
+e2e/**/*.js
+e2e/**/*.js.map
+_test-output
+_temp
 
 # OS X stuff
 .DS_Store
