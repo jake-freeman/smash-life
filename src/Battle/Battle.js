@@ -46,7 +46,7 @@ module.exports = class Battle extends Base
 
     const initialBattleState = {
       humCompetitor: _.defaults({}, initCompetitorState),
-      npcCompetitor: _.defaults({}, initialBattleState),
+      npcCompetitor: _.defaults({}, initCompetitorState),
       remTime: this.rules.timeLimit,
       status: "true-neutral",
       mode: "neutral",
